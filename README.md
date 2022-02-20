@@ -9,6 +9,9 @@
 * AR#encrypts
   * [Example](https://github.com/sajjadmurtaza/rails_updates_and_tips/blob/main/app/models/student.rb)
   * Rails 7.0 adds encryption to attributes at the model level.
+* .load_async
+  * [Example](https://github.com/sajjadmurtaza/rails_updates_and_tips/blob/main/app/controllers/api/v1/students_controller.rb)
+  * Rails 7 adds the ability to schedule the query on the background thread pool
 
 ### Rails 6
 
