@@ -12,7 +12,14 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[7.0].define(version: 20_220_216_082_515) do
+ActiveRecord::Schema[7.0].define(version: 20_220_219_051_205) do
+  create_table 'addresses', force: :cascade do |t|
+    t.string 'city'
+    t.integer 'student_id'
+    t.datetime 'created_at', null: false
+    t.datetime 'updated_at', null: false
+  end
+
   create_table 'students', force: :cascade do |t|
     t.string 'name'
     t.integer 'account_number'

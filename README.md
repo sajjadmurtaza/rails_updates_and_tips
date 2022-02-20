@@ -11,3 +11,7 @@
   * Rails 7.0 adds encryption to attributes at the model level.
 
 ### Rails 6
+
+* AR#associated and AR#missing
+  * [Example](https://github.com/sajjadmurtaza/rails_updates_and_tips/blob/main/app/models/student.rb)
+  * Rails 6.1 simplifies how to check whether an association exists by adding a new associated method.
